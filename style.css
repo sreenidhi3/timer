@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Life+Savers:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body, html{
+    background: linear-gradient(to left, #f14a4a, #a70a0a);
+    background: linear-gradient(to bottom right, #2dabb5, #009ea9,#4ec8c8) fixed center center;
+    text-align: center;
+    color: azure;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.sections{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 320px;
+    font-family:'Arimo','Open Sans';
+    margin: auto;
+    height: 100%;
+}
+
+.time{
+    margin: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+input{
+    margin: 10px;
+    padding: 10px;
+    width: 50px;
+    border: 0;
+    background-color: azure;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    text-align: center;
+    font-size: large;
+}
+
+.start{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 50px;
+    color: black;
+    border: 0;
+    box-shadow: 0 0 10px -5px #eee;
+}
+.set{
+    padding: 10px;
+}
+
+#timer{
+    width: 95%;
+    font-size: 90px;
+    color: aliceblue;
+}
