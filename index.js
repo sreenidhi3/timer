@@ -11,6 +11,8 @@ var timeNow = Date.now();
 start.addEventListener('click', ()=>{
     clearInterval(countdown);
     time(Number(setTimeMin.value*60) + Number(setTimeSec.value));
+    setTimeSec.value='';
+    setTimeMin.value='';
 })
 
 function time(sec){

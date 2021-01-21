@@ -64,6 +64,7 @@ input::placeholder{
     color: black;
     border: 0;
     box-shadow: 0 0 10px -5px #eee;
+    cursor: pointer;
 }
 .set{
     padding: 10px;
